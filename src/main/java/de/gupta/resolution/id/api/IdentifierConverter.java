@@ -1,4 +1,4 @@
-package ai.eylo.user.resolution.api;
+package de.gupta.resolution.id.api;
 
 @FunctionalInterface
 public interface IdentifierConverter<SourceID, TargetID>
