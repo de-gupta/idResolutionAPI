@@ -1,7 +1,9 @@
 package de.gupta.resolution.id.api;
 
+import java.util.Optional;
+
 @FunctionalInterface
 public interface IdentifierConverter<SourceID, TargetID>
 {
-	TargetID convert(SourceID id);
+	Optional<TargetID> convert(SourceID id);
 }
